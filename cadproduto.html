@@ -1,0 +1,40 @@
+<html lang="br">
+    <head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+    <link rel="stylesheet" type="text/css" href="login.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Cadastro de produtos</title>
+    <meta charset="utf-8">
+    </head>
+
+<body>
+    <div class="principal">
+        <form>
+            <h1 class="border"> Cadastro de produtos </h1>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Nome do produto</label>
+                <input type="text" class="form-control" id="nome" placeholder="Nome">
+              </div>
+              <div class="form-group col-md-6">
+                    <label for="inputEmail4">Marca</label>
+                    <input type="email" class="form-control" id="marca" placeholder="Marca">
+              </div>
+            </div>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Descrição</span>
+                </div>
+                <textarea class="form-control" aria-label="Com textarea"></textarea>
+              </div>
+            <div class="form-group">
+              <label for="inputAddress2">CPNJ / CPF</label>
+              <input type="text" class="form-control" id="cpf" placeholder="999.999.999-90">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+          </form>
+    </div>
+</body>
+</html>
